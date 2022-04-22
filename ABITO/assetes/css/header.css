@@ -1,0 +1,36 @@
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav-logo{
+    display: flex;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__item{
+    list-style: none;
+}
+.header__link{
+    text-decoration: none;
+    color: black;
+}
+.header__login{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color:white;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.button{
+    color: white;
+    background-color: #256EEB;
+    border-radius: 5px;
+}
