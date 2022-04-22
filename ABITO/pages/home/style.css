@@ -1,7 +1,7 @@
-@import url(../../assetes/css/normalize.css);
+@import url(../../assetes/css/footer.css);
 @import url(../../assetes/css/header.css);
 @import url(../../assetes/css/fonts.css);
-@import url(../../assetes/css/footer.css);
+@import url(../../assetes/css/normalize.css);
 a {
     text-decoration: none;
     display: block;
