@@ -1,12 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .footer {
     border-top: 1px solid #E5E5E5;
     padding-top: 18px;
 }
 .footer__text {
+    margin: 0px;
     margin-bottom: 5px;
     font-style: normal;
     font-weight: 400;
@@ -20,9 +17,10 @@
 .footer__nav{
     display: flex;
     flex-direction: column;
+    padding: 0px;
 }
 .footer__item{
-    margin: 5px;
+    margin-bottom: 5px;
     list-style: none;
 }
 .footer__link{
