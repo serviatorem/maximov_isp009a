@@ -13,23 +13,24 @@
     <div class="container">
         <div class="header">
             <div class="wrapper">
-            <div class="header__nav-logo">
-                <div class="header__logo">
-                    <img src="../../assetes/images/logo (1).png" alt="logo" class="logo">
+                <div class="header__nav-logo">
+                    <div class="header__logo">
+                        <img src="../../assetes/images/logo (1).png" alt="logo" class="logo">
+                    </div>
+                    <div class="header__navigation">
+                        <ul class="header__nav">
+                            <li class="header__item"><a href="#" class="header__link">Авто</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Недвижимость</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Работа</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="header__navigation">
-                    <ul class="header__nav">
-                        <li class="header__item"><a href="#" class="header__link">Авто</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Недвижимость</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Работа</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
-                    </ul>
+                <div class="header__login">
+                    <button class="btn">Вход и регистрация</button>
+                    <button class="btn button">Подать объявление</button>
                 </div>
             </div>
-            <div class="header__login">
-                <button class="btn">Вход и регистрация</button>
-                <button class="btn button">Подать объявление</button>
-            </div></div>
             <div class="search">
                 <div class="search__main">
                     <input type="text" placeholder="Поиск по объявлениям">
@@ -40,47 +41,104 @@
             </div>
         </div>
         <div class="main">
-            <h1 class="rec">Рекомендации для вас</h1>
-            <div class="cards">
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
+            <div class="main__cards">
+                <h1 class="rec">Рекомендации для вас</h1>
+                <div class="cards cards__one">
+                    <div class="card">
+                        <div class="wrap__img">
+                            <img class="card__img" src="../../assetes/images/samokat.png" alt="samokat"></div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Электросамокат</h3><a class='heart' href="#"><i class="fa fa-heart"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">10 980 ₽</p>
+                        <p class="card__desc">Казань, р-н Ново-Савиновский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
+                    <div class="card">
+                        <div class="wrap__img"><img class="card__img" src="../../assetes/images/Rectangle 3pvh.png"
+                                alt="pvh"></div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Пвх материал 2й сорт</h3><i class="fa fa-heart"
+                                aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">170 ₽</p>
+                        <p class="card__desc">Казань, р-н Вахитовский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
+                    <div class="card">
+                        <div class="wrap__img">
+                            <div class="wrap__img"><img class="card__img" src="../../assetes/images/Rectangle 3vetr.png"
+                                    alt="vetrovka"></div>
+                        </div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Двухсторонняя ветровка для мальчика</h3><i class="fa fa-heart"
+                                aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">2 110 ₽</p>
+                        <p class="card__desc">Казань, р-н Ново-Савиновский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
-                </div>
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="wrap__img"><img class="card__img" src="../../assetes/images/Rectangle 3komod.png"
+                                alt="doska na komod"></div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Пеленальная доска на комод</h3><i class="fa fa-heart"
+                                aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">200 ₽</p>
+                        <p class="card__desc">Казань, р-н Ново-Савиновский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
+                    <div class="card">
+                        <div class="wrap__img"><img class="card__img" src="../../assetes/images/Rectangle 3uchastok.png"
+                                alt="uchastok"></div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Участок 8 сот. (ИЖС)</h3><i class="fa fa-heart"
+                                aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">101 980 ₽</p>
+                        <p class="card__desc">Казань, р-н Ново-Савиновский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
+                    <div class="card">
+                        <div class="wrap__img"><img class="card__img" src="../../assetes/images/Rectangle 3ford.png"
+                                alt="ford"></div>
+                        <div class="card__title-heart">
+                            <h3 class="card__title">Ford Fusion, 2007</h3><i class="fa fa-heart"
+                                aria-hidden="true"></i></a>
+                        </div>
+                        <p class="card__cost">304 000 ₽</p>
+                        <p class="card__desc">Казань, р-н Ново-Савиновский</p>
+                        <p class="card__data">10 июля 11:39</p>
+                    </div>
                 </div>
             </div>
-            <div class="cards">
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
+            <div class="main__services">
+                <h1 class="rec">Сервисы и услуги</h1>
+                <div class="main__delivery block">
+                    <img src="../../assetes/images/001-delivery-truck 1FURA.png" alt="" class="main__img">
+                    <h3 class="main__title">Доставка</h3>
+                    <p class="main__desc">Проверка при получении и возможность бесплатно вернуть товар</p>
                 </div>
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
+                <div class="main__avto block">
+                    <img src="../../assetes/images/002-sedan 1.png" alt="" class="main__img">
+                    <h3 class="main__title">Автотека</h3>
+                    <p class="main__desc">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
                 </div>
-                <div class="card">
-                    <img class="card__img" src="" alt="">
-                    <h3 class="card__title"></h3>
-                    <p class="card__cost"></p>
-                    <p class="card__desc"></p>
+                <div class="main__reser block">
+                    <img src="../../assetes/images/love 1.png" alt="" class="main__img">
+                    <h3 class="main__title">Онлайн-бронирование жилья</h3>
+                    <p class="main__desc">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
                 </div>
             </div>
+            <footer class="footer">
+                <p class="footer__text">© ООО «Абито», 2011–2021</p>
+                <a href="#" class="footer__link">Политика конфиденциальности</a>
+                <a href="#" class="footer__link">Обработка данных</a>
+            </footer>
         </div>
     </div>
 </body>
