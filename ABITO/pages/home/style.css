@@ -6,3 +6,34 @@
     max-width: 1146px;
     margin: 0 auto;
 }
+
+.main {
+    margin-top: 42px;
+}
+
+.rec {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A143A;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #256EEB;
+
+}
+
+.card__cost {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
