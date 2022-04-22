@@ -1,7 +1,7 @@
 @import url(../../assetes/css/normalize.css);
 @import url(../../assetes/css/header.css);
 @import url(../../assetes/css/fonts.css);
-
+@import url(../../assetes/css/footer.css);
 a {
     text-decoration: none;
     display: block;
@@ -96,9 +96,10 @@ a {
 
 .main__services {
     width: 20%;
+}
+.main__reser{
     margin-bottom: 37px;
 }
-
 .main__title {
     font-style: normal;
     font-weight: 700;

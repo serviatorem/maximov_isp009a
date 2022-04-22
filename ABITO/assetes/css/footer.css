@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    border-top: 1px solid #E5E5E5;
+    padding-top: 18px;
+}
+.footer__text {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+.footer__links{
+    text-decoration-line: underline;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer__item{
+    margin: 5px;
+    list-style: none;
+}
+.footer__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #0A143A;
+}
