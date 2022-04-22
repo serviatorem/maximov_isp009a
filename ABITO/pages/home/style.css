@@ -6,7 +6,12 @@ a {
     text-decoration: none;
     display: block;
 }
-
+p{
+    margin: 5px 0px;
+}
+h3{
+    margin: 5px 0px;
+}
 .container {
     max-width: 1146px;
     margin: 0 auto;
