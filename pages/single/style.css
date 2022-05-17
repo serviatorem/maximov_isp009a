@@ -86,19 +86,54 @@
     border-radius: 5px;
     margin-bottom: 14px;
 }
-.main__button:hover{
+
+.main__button:hover {
     cursor: pointer;
 }
-.btns{
+
+.btns {
     display: flex;
     flex-direction: column;
 }
-.main__btn{
+
+.main__btn {
     background: #14B4BE;
 }
-.main__seller{
+
+.main__seller {
     margin-right: 128px;
 }
-.adv2{
+
+.adv2 {
     margin-bottom: 26px;
+}
+
+.price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #0A143A;
+}
+
+@media screen and (max-width:320px) {
+    .main__image {
+        max-width: 269px;
+    }
+
+    .image_mini {
+        max-width: 62px;
+    }
+
+    .image_mini:nth-child(4) {
+        display: none;
+    }
+    .text__desc{
+        margin-bottom: 46px;
+    }
+    .main__btn{
+        margin-bottom: 46px;
+    }
 }
