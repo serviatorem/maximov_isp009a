@@ -122,3 +122,48 @@ h3{
 
     color: #0A143A;
 }
+@media screen and (max-width:320px) {
+    .conteiner{
+        width: 270px;
+    }
+    .header-nav_left ul{
+        display: none;
+    }
+    .header-nav_right div{
+        display: none;
+    }
+    .menu-slider{
+        display: block;
+    }
+    .info__name{
+        margin-top: 12px;
+    }
+    .search__text a{
+        display: none;
+    }
+    .search__right{
+        margin-left: 11px;
+        margin-right: 9px;
+    }
+    .recomend h2{
+        font-size: 18px;
+    }
+    .card:nth-child(4),
+    .card:nth-child(5),
+    .card:nth-child(6){
+        display: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .footer{
+        margin-top: 37px;
+        margin-left: 0;
+    }
+}
