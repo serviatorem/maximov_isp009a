@@ -77,19 +77,28 @@
     margin-bottom: 30px;
 }
 
-.button {
+.main__button {
     width: 264px;
     height: 54px;
     border: 0;
+    color: white;
+    background-color: #256EEB;
+    border-radius: 5px;
     margin-bottom: 14px;
 }
-.button:hover{
+.main__button:hover{
     cursor: pointer;
 }
 .btns{
     display: flex;
     flex-direction: column;
 }
-.btn{
+.main__btn{
     background: #14B4BE;
+}
+.main__seller{
+    margin-right: 128px;
+}
+.adv2{
+    margin-bottom: 26px;
 }
