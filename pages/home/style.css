@@ -2,16 +2,20 @@
 @import url(../../assetes/css/header.css);
 @import url(../../assetes/css/fonts.css);
 @import url(../../assetes/css/normalize.css);
+
 a {
     text-decoration: none;
     display: block;
 }
-p{
+
+p {
     margin: 5px 0px;
 }
-h3{
+
+h3 {
     margin: 5px 0px;
 }
+
 .container {
     max-width: 1146px;
     margin: 0 auto;
@@ -54,7 +58,7 @@ h3{
 
 .card__img {
     object-fit: cover;
-    max-width: 264px;
+    max-width: 270px;
 }
 
 .card__title {
@@ -102,9 +106,11 @@ h3{
 .main__services {
     width: 20%;
 }
-.main__reser{
+
+.main__reser {
     margin-bottom: 37px;
 }
+
 .main__title {
     font-style: normal;
     font-weight: 700;
@@ -122,48 +128,52 @@ h3{
 
     color: #0A143A;
 }
+
+.header__slider {
+    display: none;
+}
+
 @media screen and (max-width:320px) {
-    .conteiner{
-        width: 270px;
+    .container {
+        max-width: 270px;
     }
-    .header-nav_left ul{
-        display: none;
-    }
-    .header-nav_right div{
-        display: none;
-    }
-    .menu-slider{
-        display: block;
-    }
-    .info__name{
-        margin-top: 12px;
-    }
-    .search__text a{
-        display: none;
-    }
-    .search__right{
-        margin-left: 11px;
-        margin-right: 9px;
-    }
-    .recomend h2{
-        font-size: 18px;
-    }
-    .card:nth-child(4),
-    .card:nth-child(5),
-    .card:nth-child(6){
-        display: none;
-    }
-    main{
-        display: flex;
-        justify-content: center;
+    .main {
         flex-direction: column;
     }
-    .services{
-        margin-top: 50px;
-        margin-left: 0;
+    .search__text{
+        display: none;
     }
-    .footer{
-        margin-top: 37px;
-        margin-left: 0;
+    .header__navigation {
+        display: none;
+    }
+
+    .header__login {
+        display: none;
+    }
+
+    .header__slider {
+        display: block;
+        margin-top: 12px;
+    }
+
+    .cards__two {
+        display: none;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .rec {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #0A143A;
+    }
+    .main__services{
+        width: 100%;
     }
 }
