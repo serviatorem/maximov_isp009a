@@ -1,0 +1,9 @@
+@import url(../../assetes/css/header.css);
+@import url(../home/style.css);
+.main__image{
+    max-width: 460px;
+    height: auto;
+}
+.main__image-mini{
+    
+}
