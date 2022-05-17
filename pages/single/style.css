@@ -1,9 +1,45 @@
+@import url(../../assetes/css/footer.css);
 @import url(../../assetes/css/header.css);
+@import url(../../assetes/css/fonts.css);
+@import url(../../assetes/css/normalize.css);
 @import url(../home/style.css);
-.main__image{
+.main {
+    margin-top: 42px;
+    display: flex;
+    justify-content: flex-start;
+}
+.main__desc{
+    max-width: 460px;
+    margin-right: 30px;
+}
+.main__image {
     max-width: 460px;
     height: auto;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-bottom: 16px;
 }
-.main__image-mini{
-    
+
+.main__image-mini {
+    display: flex;
+    max-width: 360px;
+    gap: 5px;
+}
+
+.image_mini {
+    object-fit: cover;
+}
+
+.text__desc {
+    margin-top: 30px;
+    max-width: 390px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+
+    color: #0A143A;
 }
